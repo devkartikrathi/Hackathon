@@ -1,9 +1,7 @@
 import openai
 import pandas as pd
+from key import KEY
 import ast
-
-with open("key.txt") as f:
-    KEY = str(f.readlines()[0])
 
 openai.api_key = KEY
 
