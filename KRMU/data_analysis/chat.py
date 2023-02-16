@@ -1,9 +1,10 @@
 import openai
 import pandas as pd
 import ast
-from key import KEY
+#from key import KEY
 
-openai.api_key = KEY
+# https://platform.openai.com/account/api-keys
+openai.api_key = "PLACE YOUR KEY HERE"
 
 class coder:
 
