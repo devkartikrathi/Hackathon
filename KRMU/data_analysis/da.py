@@ -1,4 +1,6 @@
 import pandas as pd
 
-def clean():
-    print("Hello world")
+class cleaning():
+
+    def show_null():
+        print("Hello world")
