@@ -1,7 +1,7 @@
 import openai
 import pandas as pd
-from key import KEY
 import ast
+from key import KEY
 
 openai.api_key = KEY
 
